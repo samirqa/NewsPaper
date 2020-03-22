@@ -27,7 +27,7 @@ public class Script
  	    static int  numberofSat = 0;
 		public static void main(String args[])throws Exception
 		{
-			String FilePath = "D:\\eclipse\\workspace\\demoproj\\SM\\TD.xlsx";
+			String FilePath = "D:\\eclipse\\workspace\\demoproj\\NewPaper\\SM\\TD.xlsx";
 			CallExcel(FilePath,"TD");
 			System.out.println("TOTAL NO OF ROWS : "+lastrowb());
 			for(int p=1;p<=lastrowb();p++)
